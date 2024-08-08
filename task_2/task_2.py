@@ -23,5 +23,4 @@ if __name__ == "__main__":
     dict_char: Dict[str, int] = find_duplicate_char(word)
     print(f"\nВ строке '{word}'\n")
     for key, value in dict_char.items():
-        if value > 1:
-            print(f"символ '{key}' повторяется {value} раз")
+        print(f"символ '{key}' повторяется {value} раз")
